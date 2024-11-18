@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+font-family:PolySans, sans-serif;
+}
+body{
+    background-image:url(images/back.jpg);
+    background-position-x: 10%;
+    background-repeat: no-repeat;
+    
+}
+h1,h2,h3{
+    text-align: center;
+    padding-top: 5px;
+}
+header{
+    width: 90%;
+    color: rgb(0,0,0);;
+   
+    margin: 10px auto 25px;
+
+}
+/*content*/
+.content{
+    flex-wrap: wrap;
+    display: flex;
+    width:80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.item{
+    flex:0 0 200px;
+    margin: 10px 3px;
+}
+a{
+    display:block;
+    background-color: rgba(255, 255, 255,20%);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+a:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px 0px 0px inset;
+    color: rgb(228, 113, 12);
+}
+a:active{
+    background-color: rgb(255, 208, 0);
+}
+/*Footer*/
+
+
+/*Media Queria*/
+@media screen and (width>=500px){
+
+body{
+    background-image:url(images/back.jpg);
+    background-size:100%;
+    background-attachment: fixed;
+    background-position-x: none;
+}
+/*header*/
+
+h1{
+   font-size: 48px;
+    font-weight: 600px;
+}
+}
