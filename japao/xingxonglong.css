@@ -6,6 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  background: linear-gradient(to right, white 30%, red 70%);
 }
 
 .navbar {
@@ -31,6 +32,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
+  border: 1px solid black;
 }
 
 .navbar-secundaria a {
@@ -59,6 +61,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 .container {
@@ -69,14 +72,17 @@ body {
   margin-bottom: 20px;
   background-color: white;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+margin: auto;
+max-width: 1200px;
+
 }
 
 .imagem img {
   width: 100%;
   max-width: 300px;
-  height: auto;
+  height: auto; 
   border-radius: 10px;
 }
 
@@ -90,3 +96,13 @@ body {
 
 text-align: center;
 }
+
+img {
+border-radius: 10%;
+
+}
+
+
+
+
+
