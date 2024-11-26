@@ -1,0 +1,76 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;                   /* Tamanho da fonte */
+    line-height: 1.5;                  /* Espaçamento entre as linhas */
+    color: #000000;                       /* Cor do texto */
+}
+
+h1{color: #b20202;}
+h2{color: #ffe600;}
+h3{color: #02079e;}
+h4{color: #ff0000;}
+h5{color: #ffee00;}
+h6{color: #001969;}
+
+
+h1{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;                   /* Tamanho da fonte */
+line-height: 1.5;                  /* Espaçamento entre as linhas */
+color: #b20202;;                       /* Cor do texto */}
+h2{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;                   /* Tamanho da fonte */
+line-height: 1.5;                  /* Espaçamento entre as linhas */
+color:     #ffe600;               /* Cor do texto */}
+h3{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;                   /* Tamanho da fonte */
+line-height: 1.5;                  /* Espaçamento entre as linhas */
+color:    #02079e;             /* Cor do texto */}
+h4{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;                   /* Tamanho da fonte */
+line-height: 1.5;                  /* Espaçamento entre as linhas */
+color:   #ff0000     /* Cor do texto */}
+h5{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;                   /* Tamanho da fonte */
+line-height: 1.5;                  /* Espaçamento entre as linhas */
+color:    #ffee00;   /* Cor do texto */}
+h6{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;                   /* Tamanho da fonte */
+line-height: 1.5;                  /* Espaçamento entre as linhas */
+color:   #001969;   /* Cor do texto */}
+
+body {
+    font-family: Arial, sans-serif;
+}
+/* Estilo para o menu */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+ul.menu li {
+    display: inline;
+}
+
+ul.menu li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #750000;
+}
+
+ul.menu li a:hover {
+    background-color: #a33030;
+}
+    body{background-image:;
+    background-repeat: no-repeat;
+    background-size:contain ;
+    }
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(to right, red 10%, white 70%);
+  border: 1px solid black;
+}
+
+.logo, .logo-brasil {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar-secundaria {
+  background: linear-gradient(to right, white 30%, red 70%);
+  padding: 10px 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-secundaria a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.navbar-secundaria a:hover {
+  text-decoration: underline;
+}
+
+.titulo h1, h2, h3, p {
+  margin: 40px;
+}
+
+.titulo img.bandeira {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: auto;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.texto {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.titulo h1, h2, h3 {
+
+text-align: center;
+}
