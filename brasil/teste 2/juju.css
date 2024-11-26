@@ -1,0 +1,39 @@
+body{
+    background-image: url(mineirin.jpg);
+    background-attachment: fixed;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+h1{
+    color: yellow;
+    -webkit-text-stroke-color:rgb(201, 57, 13);
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 2px 2px 20px rgb(255, 196, 0);
+    text-align: center;
+}
+section{
+    width: 600px;
+    border: solid;
+    background-color: burlywood;
+    border-color: brown;
+    box-shadow: 1px 1px 20px;
+}
+p{
+    color: brown;
+}
+h3{
+    color: red;
+    -webkit-text-stroke-color:rgb(238, 48, 0);
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 2px 2px 20px rgb(255, 0, 0);
+    text-align: center;
+}
+.oioi{
+    font-size: 50px;
+}
+section img{
+    width: 100%;
+}

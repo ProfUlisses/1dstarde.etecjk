@@ -1,0 +1,38 @@
+body{
+    background-image: url(saci.png);
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+section{
+    width: 600px;
+    border: solid;
+    background-color: rgb(188, 255, 171);
+    border-color: rgb(24, 179, 37);
+    box-shadow: 1px 1px 20px yellowgreen;
+ }
+ h1{
+    color: greenyellow;
+    -webkit-text-stroke-color:green;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 2px 2px 20px greenyellow;
+    text-align: center;
+ }
+ h3{
+    text-align: center;
+    color:green
+ }
+ .proximo{
+    color: brown;
+    -webkit-text-stroke-color:rgb(224, 82, 16);
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 2px 2px 20px rgb(252, 165, 51);
+    text-align: center;
+ }
+ p{
+   font-size: 20px;
+   color: green
+ }
